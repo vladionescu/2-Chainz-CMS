@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE news [
+	<!ELEMENT news ANY>
+	<!ELEMENT item ANY>
+	<!ATTLIST item id ID #REQUIRED>
+]>
+<news>
+	<item date="1364557343" id="1">
+		<image>/~vxi6514/539/project2/img/2chainz.jpg</image>
+		<title><![CDATA[
+			2 Chainz
+		]]></title>
+		<content><![CDATA[
+			Tauheed Epps (born September 12, 1977), better known by his stage name 2 Chainz (formerly Tity Boi), is an American hip hop recording artist. He was first known for being one half of the southern hip hop duo Playaz Circle, alongside his longtime friend and fellow rapper Earl "Dolla Boy" Conyers. They were best known for being signed to Ludacris' Disturbing tha Peace label, as well as their debut single "Duffle Bag Boy".
+		]]></content>
+	</item>
+	<item date="1364557343" id="2">
+		<image>/~vxi6514/539/project2/img/album.jpg</image>
+		<title><![CDATA[
+			Based on a T.R.U. Story
+		]]></title>
+		<content><![CDATA[
+			The album features guest appearances from fellow rappers Lil Wayne, Drake, Kanye West, Nicki Minaj and Playaz Circle cohort Dolla Boy along with singer-songwriters The-Dream, Mike Posner, The Weeknd and Chris Brown. The album's production was handled by Brick Squad Monopoly's Southside, Mike WiLL Made It, Sonny Digital, Kanye West, Hit-Boy, Drumma Boy, DJ Mustard, Mr. Bangladesh and DJ Spinz, among others. The album has sold 588,000 copies as of April 17, 2013. The album was nominated for Best Rap Album at the 55th Grammy Awards, but lost to Take Care by Drake.
+		]]></content>
+	</item>
+	<item date="1364557343" id="3">
+		<image>/~vxi6514/539/project2/img/baby.jpg</image>
+		<title><![CDATA[
+			1977–1996: Early life and beginnings
+		]]></title>
+		<content><![CDATA[
+			Tauheed Epps was born September 12, 1977, in College Park, Georgia. He attended North Clayton High School with R&B singer Monica[3] and exceeded his teacher's expectations of him by finishing second in his class. In high school, Epps also joined the school's basketball team. Standing at 6'5, Epps was a standout basketball player and later attended college at the University of Alabama State on an athletic scholarship.
+		]]></content>
+	</item>
+	<item date="1364557343" id="4">
+		<image>/~vxi6514/539/project2/img/placekitten.jpg</image>
+		<title><![CDATA[
+			{Placekitten 4}
+		]]></title>
+		<content><![CDATA[
+			Bacon ipsum dolor sit amet bresaola strip steak bacon fatback pork belly, boudin pig. Beef ribs sirloin cow ham hock jowl sausage fatback. Fatback tri-tip andouille pastrami, chuck tenderloin corned beef leberkas shoulder. Short ribs kielbasa pastrami, venison bresaola flank short loin pork belly doner leberkas. Cow tenderloin rump, ribeye jowl venison pastrami ball tip shankle prosciutto. Pork swine cow venison, short loin filet mignon jerky.
+		]]></content>
+	</item>
+	<item date="1364557343" id="5">
+		<image>/~vxi6514/539/project2/img/blackandwhite.jpeg</image>
+		<title><![CDATA[
+			I'm Different 5
+		]]></title>
+		<content><![CDATA[
+			Capicola rump pork shankle chicken boudin beef ribs shank shoulder bresaola ribeye. Pork belly jerky t-bone boudin flank venison, pork ham pig chuck filet mignon. Shankle pork belly fatback, andouille filet mignon flank beef turducken swine frankfurter drumstick leberkas capicola ribeye kielbasa. Shank capicola chicken, fatback bresaola shankle biltong short loin brisket meatball cow sausage.
+		]]></content>
+	</item>
+	<item date="1364557343" id="6">
+		<image>/~vxi6514/539/project2/img/piggy.png</image>
+		<title><![CDATA[
+			Bacon Ipsum 6
+		]]></title>
+		<content><![CDATA[
+			Pastrami chuck short loin jowl drumstick, beef rump biltong flank tenderloin boudin pig kielbasa. Pastrami ribeye kielbasa beef beef ribs meatloaf drumstick. Ham chicken shankle venison drumstick pastrami pork chop sirloin pork loin beef ribs fatback andouille. Biltong shank hamburger brisket chicken rump, pork short ribs. Tail ground round pancetta pork brisket prosciutto spare ribs pork loin pork chop cow ball tip chuck. Short ribs pancetta corned beef leberkas, ground round pork chop bacon pork belly.
+		]]></content>
+	</item>
+	<item date="1364557343" id="7">
+		<image>/~vxi6514/539/project2/img/placekitten.jpg</image>
+		<title><![CDATA[
+			{Placekitten 7}
+		]]></title>
+		<content><![CDATA[
+			Bacon ipsum dolor sit amet bresaola strip steak bacon fatback pork belly, boudin pig. Beef ribs sirloin cow ham hock jowl sausage fatback. Fatback tri-tip andouille pastrami, chuck tenderloin corned beef leberkas shoulder. Short ribs kielbasa pastrami, venison bresaola flank short loin pork belly doner leberkas. Cow tenderloin rump, ribeye jowl venison pastrami ball tip shankle prosciutto. Pork swine cow venison, short loin filet mignon jerky.
+		]]></content>
+	</item>
+	<item date="1364557343" id="8">
+		<image>/~vxi6514/539/project2/img/blackandwhite.jpeg</image>
+		<title><![CDATA[
+			I'm Different 8
+		]]></title>
+		<content><![CDATA[
+			Capicola rump pork shankle chicken boudin beef ribs shank shoulder bresaola ribeye. Pork belly jerky t-bone boudin flank venison, pork ham pig chuck filet mignon. Shankle pork belly fatback, andouille filet mignon flank beef turducken swine frankfurter drumstick leberkas capicola ribeye kielbasa. Shank capicola chicken, fatback bresaola shankle biltong short loin brisket meatball cow sausage.
+		]]></content>
+	</item>
+	<item date="1364557343" id="9">
+		<image>/~vxi6514/539/project2/img/piggy.png</image>
+		<title><![CDATA[
+			Bacon Ipsum 9
+		]]></title>
+		<content><![CDATA[
+			Pastrami chuck short loin jowl drumstick, beef rump biltong flank tenderloin boudin pig kielbasa. Pastrami ribeye kielbasa beef beef ribs meatloaf drumstick. Ham chicken shankle venison drumstick pastrami pork chop sirloin pork loin beef ribs fatback andouille. Biltong shank hamburger brisket chicken rump, pork short ribs. Tail ground round pancetta pork brisket prosciutto spare ribs pork loin pork chop cow ball tip chuck. Short ribs pancetta corned beef leberkas, ground round pork chop bacon pork belly.
+		]]></content>
+	</item>
+	<item date="1364557343" id="10">
+		<image>/~vxi6514/539/project2/img/placekitten.jpg</image>
+		<title><![CDATA[
+			{Placekitten 10}
+		]]></title>
+		<content><![CDATA[
+			Bacon ipsum dolor sit amet bresaola strip steak bacon fatback pork belly, boudin pig. Beef ribs sirloin cow ham hock jowl sausage fatback. Fatback tri-tip andouille pastrami, chuck tenderloin corned beef leberkas shoulder. Short ribs kielbasa pastrami, venison bresaola flank short loin pork belly doner leberkas. Cow tenderloin rump, ribeye jowl venison pastrami ball tip shankle prosciutto. Pork swine cow venison, short loin filet mignon jerky.
+		]]></content>
+	</item>
+	<item date="1364557343" id="11">
+		<image>/~vxi6514/539/project2/img/blackandwhite.jpeg</image>
+		<title><![CDATA[
+			I'm Different 11
+		]]></title>
+		<content><![CDATA[
+			Capicola rump pork shankle chicken boudin beef ribs shank shoulder bresaola ribeye. Pork belly jerky t-bone boudin flank venison, pork ham pig chuck filet mignon. Shankle pork belly fatback, andouille filet mignon flank beef turducken swine frankfurter drumstick leberkas capicola ribeye kielbasa. Shank capicola chicken, fatback bresaola shankle biltong short loin brisket meatball cow sausage.
+		]]></content>
+	</item>
+	<item date="1364557343" id="12">
+		<image>/~vxi6514/539/project2/img/piggy.png</image>
+		<title><![CDATA[
+			Bacon Ipsum 12
+		]]></title>
+		<content><![CDATA[
+			Pastrami chuck short loin jowl drumstick, beef rump biltong flank tenderloin boudin pig kielbasa. Pastrami ribeye kielbasa beef beef ribs meatloaf drumstick. Ham chicken shankle venison drumstick pastrami pork chop sirloin pork loin beef ribs fatback andouille. Biltong shank hamburger brisket chicken rump, pork short ribs. Tail ground round pancetta pork brisket prosciutto spare ribs pork loin pork chop cow ball tip chuck. Short ribs pancetta corned beef leberkas, ground round pork chop bacon pork belly.
+		]]></content>
+	</item>
+</news>

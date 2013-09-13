@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feeds>
+	<feed url="http://fakescience.org/rss" />
+	<feed url="http://xkcd.com/rss.xml" />
+	<feed url="http://feeds.feedburner.com/PetaPixel" />
+</feeds>

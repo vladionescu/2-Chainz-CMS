@@ -1,0 +1,233 @@
+/*------------------------------------*\
+  RESET
+\*------------------------------------*/
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0b1 | 201101
+*/
+
+html,body,div,span,applet,object,iframe,
+h1,h2,h3,h4,h5,h6,p,blockquote,pre,
+a,abbr,acronym,address,big,cite,code,
+del,dfn,em,img,ins,kbd,q,s,samp,
+small,strike,strong,sub,sup,tt,var,
+b,u,i,center,
+dl,dt,dd,ol,ul,li,
+fieldset,form,label,legend,
+table,caption,tbody,tfoot,thead,tr,th,td,
+article,aside,canvas,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section,summary,
+time,mark,audio,video{
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+  font-size:100%;
+  font:inherit;
+  vertical-align:baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section{
+  display:block;
+}
+body{
+  line-height:1;
+}
+ol,ul{
+  list-style:none;
+}
+blockquote,q{
+  quotes:none;
+}
+blockquote:before,blockquote:after,
+q:before,q:after{
+  content:'';
+  content:none;
+}
+ins{
+  text-decoration:none;
+}
+del{
+  text-decoration:line-through;
+}
+table{
+  border-collapse:collapse;
+  border-spacing:0;
+}
+
+/*------------------------------------*\
+  Vlad Ionescu (vxi6514@rit.edu)/Rochester Institute of Technology
+  For 409 w/ Jeff Sonstein, 2012-2
+\*------------------------------------*/
+/*========== GLOBALS ==========*/
+html {background:#dadada;}
+html.admin {background:url("./img/chainz.png") no-repeat center top #dadada; background-size:600px 971px;}
+body {background:#fafafa; color:#111; font:16px/120% 'PT Sans',Helvetica,Arial,sans-serif; width:900px; margin:80px auto;}
+ul {list-style:inside disc;}
+a {color:inherit; text-decoration:none;}
+a:hover, a:active {text-decoration:underline;}
+b {font-weight:bold;}
+i {font-style:italic;}
+
+/*========== HEADER ==========*/
+h1 {padding:15px 25px; font:600 36px 'Dosis', Helvetica, Arial, sans-serif; float:left; text-transform:uppercase;}
+h1 a:hover, h1 a:active {text-decoration:none;}
+
+header nav {padding:25px; padding-right:50px; font:20px 'Dosis', Helvetica, Arial, sans-serif; color:#545454; float:right; text-transform:uppercase;}
+header nav .current {text-decoration:underline;}
+
+div#banner {width:800px; height:44px; padding:8px 50px; background:#333; clear:both;}
+div#banner img {width:370px; height:44px; margin-right:10px;}
+div#banner p {width:415px; color:#f9f9f9; font:13px 'PT Sans', Helvetica, Arial, sans-serif; text-align:center; top:-8px; display:inline-block; position:relative;}
+	
+/*========== CONTENT ==========*/
+div#page-wrap {padding:25px; overflow:hidden;}
+h3 {font:bold italic 24px 'PT Sans', Helvetica, Arial, sans-serif; color:#111;}
+h2 {font:bold italic 52px 'Gentium Basic', 'Times New Roman', serif; margin-bottom:10px; text-align:center;}
+
+/* letter from the editor */
+#letter-editor {padding-top:25px; border-top:1px solid #333;}
+#letter-editor img {width:240px; height:240px; margin-right:10px; float:left;}
+#letter-editor h3 {width:600px; font:600 18px 'Dosis', Helvetica, Arial, sans-serif; display:inline-block; margin-bottom:10px; float:left;}
+#letter-editor p {width:600px; font-size:14px; display:inline-block; float:left;}
+
+/* news and external rss */
+section#news, aside#ext-feeds {clear:both;}
+ 
+article, aside#ext-feeds section {padding:25px; overflow:auto; margin-bottom:25px; position:relative;}
+article:last-of-type, aside#ext-feeds section:last-of-type {margin-bottom:50px;}
+article:nth-child(even), aside#ext-feeds section article {background:#333; color:#f9f9f9;}
+article:nth-child(even) h3 {color:#f9f9f9;}
+article img {width:200px; height:200px; margin-right:20px; float:left;}
+article h3 {margin-bottom:20px; display:inline; float:left;}
+article time, aside#ext-feeds section time {font-weight:normal; font-size:14px; font-style:italic; display:inline; margin:10px 0 0 10px; float:left;}
+article div.content-wrap {width:500px; float:left;}
+article.single div.content-wrap {width:580px;}
+article .more {width:61px; height:85px; display:block; text-indent:-9999px; background:url("./img/more.png") no-repeat; position:absolute; right:25px; top:90px;}
+
+/* external rss */
+aside#ext-feeds section {border-bottom:1px solid #dadada; padding-top:0; margin-bottom:15px;}
+aside#ext-feeds section:last-of-type {border:none;}
+aside#ext-feeds section time {margin:0; float:none; position:relative; top:-25px;}
+aside#ext-feeds section h3 {margin:0; display:block; float:none; text-align:center;}
+aside#ext-feeds section p.desc {margin-top:-20px; text-align:center; margin-bottom:25px;}
+aside#ext-feeds section article {margin-bottom:0; text-align:center;}
+aside#ext-feeds section article h4 {margin-bottom:25px; text-decoration:underline;}
+aside#ext-feeds section article img, aside#ext-feeds section article p {width:auto; height:auto; margin:0; float:none;}
+
+/* services */
+section#services h4 {font-size:120%; font-weight:bold; margin-bottom:20px;}
+section#services section {border-bottom:1px solid #ccc; margin-bottom:50px; padding-bottom:25px;}
+section#services section:last-of-type {border:none;}
+section#services article:last-of-type {margin-bottom:0;}
+
+/* classifieds */
+section#classifieds img.classified_img {width:350px; float:left; margin-right:50px; margin-top:50px;}
+html.admin img.classified_img {width:350px; height:auto; position:static; top:auto; right:auto; vertical-align:middle;}
+div.classified_div {width:550px !important; right:auto; margin:0 auto; margin-bottom:50px;}
+
+/* nr items to show per page - select */
+form#nr_show_select {width:auto; background:none; padding:0; display:inline; margin-left:125px;}
+form#nr_show_select select {width:auto; height:auto; margin:0;}
+form#nr_show_select label {width:auto; margin-left:0; margin-right:10px;}
+
+/* pagination nav */
+nav#pagination {width:800px; padding:0 25px;}
+nav#pagination a#next {float:right;}
+nav#pagination .current {font-weight:bold;}
+nav#pagination span {margin-left:95px;}
+
+/* admin page */
+form#password_form {width:850px; background:#333; height:75px; position:relative; left:0; padding:0;}
+form#password_form input {width:295px; height:35px; margin:17px; border:1px solid #000;}
+form#password_form button {-webkit-appearance:none; border:0; background:transparent url("./img/more_small.png") no-repeat; width:31px; height:43px; position:absolute; right:15px; top:16px; cursor:pointer;}
+form#password_form span {font:18px 'PT Sans', Helvetica, Arial, sans-serif; color:#FF9; margin-left:70px;}
+
+div#status {width:400px; text-align:center; padding:15px 0; margin:0 auto;}
+div#status.good {background:#c0f0ba; border:2px solid #0f3;}
+div#status.bad {background:#ff9; border:2px solid #ff3;}
+
+section#admin, form#contact {font:15px 'PT Sans', Helvetica, Arial, sans-serif; color:#f9f9f9;}
+section#admin a {-webkit-transform:rotate(270deg); -moz-transform:rotate(270deg); -o-transform:rotate(270deg); filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=3); display:inline-block; z-index:100; position:relative; height:35px; background:#aaa; padding:15px 25px 0;}
+section#admin a#editorial_link {left:-73px; top:123px; border-left:1px solid #333;}
+section#admin a#news_link {width:98px; left:-250px; top:296px; border-left:1px solid transparent;}
+section#admin a#banners_link, section#admin a#ads_link, section#admin a#feeds_link {-webkit-transform:rotate(90deg); -moz-transform:rotate(90deg); -o-transform:rotate(90deg); filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+section#admin a#banners_link {right:-420px; top:76px; border-right:1px solid #333;}
+section#admin a#ads_link {right:-306px; top:186px; border-right:1px solid #333;}
+section#admin a#feeds_link {right:-199px; top:289px;}
+section#admin a.current {background:#333;}
+
+/* forms (mainly for admin page) */
+h3#formtitle {padding-left:25px;}
+p.formdesc {text-align:center; margin-bottom:25px;}
+img.current-banner {width:370px; height:44px; display:block; position:static; margin-left:125px; margin-bottom:50px;}
+form {width:750px; background:#333; padding:25px 0; position:relative; left:50px; min-height:295px;}
+form.push {min-height:225px; padding-bottom:95px;}
+form label {width:225px; margin-left:25px; margin-right:24px; display:inline-block;}
+form label[for=contents], form label[for=message] {position:relative; top:20px;}
+form input, form select {width:415px; height:25px; margin-bottom:25px;}
+form input[type=number] {width:40px; margin-left:25px; margin-bottom:15px;}
+form input[type=checkbox] {width:15px; height:15px; margin-left:70px; cursor:pointer;}
+form span.feedlist {display:block;}
+form input.banner-indent {margin-left:15px; margin-right:50px; margin-bottom:15px;}
+form input.banner-new {margin-left:102px; margin-right:50px;}
+form textarea {width:415px; height:170px;}
+form img {width:40px; height:40px; position:absolute; top:20px; right:6px;}
+form input[type=submit], form input[type=reset] {width:230px; height:45px; -webkit-appearance:none; border:none; background:#aaa; color:#333; font-size:15px; position:absolute; left:25px; bottom:0;}
+form > div {width:415px !important; right:-280px; position:relative;}
+form > div div.nicEdit-main {width:415px !important; min-height:150px !important;}
+
+/* contact form */
+form#contact {width:850px; left:0;}
+form#contact input[type=submit] {width:100px; height:80px; right:20px; bottom:40px; font-size:18px;}
+form#contact input[type=reset] {width:100px; height:30px; right:20px;}
+
+/*========== FOOTER/ABOUT ==========*/
+footer#main-footer {width:900px; height:35px; background:#333; font:400 16px 'Dosis', Helvetica, Arial, sans-serif; color:#f9f9f9; text-align:center; padding-top:15px; clear:both;}
+footer#main-footer a, footer#main-footer a:link {border-bottom:1px dashed #f9f9f9;}
+footer#main-footer a:hover, footer#main-footer a:active {text-decoration:none; border-bottom-style:solid;}
+
+/*========== RESPONSIVENESS ==========*/
+@media (max-width:900px) {
+	body {width:420px; margin:0 auto; font:75%; line-height:120%;}
+	
+	header nav {padding:25px 0; padding-right:25px;}
+	div#banner {width:370px; height:85px; padding:8px 25px;}
+	div#banner p {width:370px; margin-top:10px;}
+	
+	#letter-editor img {width:100px; height:100px;}
+	#letter-editor h3 {width:260px;}
+	#letter-editor p {width:auto; float:none; display:block;}
+	
+	section#news h2 {padding-top:10px; font-size:150%; border-top:1px dashed #333; margin-top:20px;}
+	article {padding:20px;}
+	article img {width:100px; height:100px; margin-bottom:10px;}
+	article h3 {width:200px; float:none; display:inline-block; font-size:120%; margin-bottom:0;}
+	article time {float:none; margin:0; padding-bottom:10px; border-bottom:1px solid #333;}
+	article:nth-child(even) time {border-bottom-color:#f9f9f9;}
+	article p {width:auto; float:none; margin-top:20px;}
+	article .more {display:none;}
+	
+	footer#main-footer {width:390px; height:auto; padding:15px;}
+	
+	nav#pagination {width:370px; padding:0;}
+	form#nr_show_select {margin-left:-40px; border-right:1px solid #111; padding-right:7px;}
+	nav#pagination span {margin-left:55px;}
+	
+	form#password_form {width:370px;}
+	form#password_form span {position:absolute; color:red; font-size:80%; margin:0; top:-25px; width:370px; left:130px;}
+	
+	form, form#contact {width:330px; padding:20px; position:relative; left:0;}
+	form img {top:5px; right:20px;}
+	form label, form label[for=message], form label[for=contents] {width:330px; margin:0 0 10px 0; top:0;}
+	form input, form select {width:324px; margin-bottom:15px;}
+	form > div {width:330px !important; right:0;}
+	form > div div.nicEdit-main {width:330px !important;}
+	form input[type=submit], form input[type=reset], form#contact input[type=submit], form#contact input[type=reset] {position:static; width:155px; height:40px; margin-top:20px;}
+	form#contact input[type=submit] {margin-right:16px;}
+	
+	div#status {width:370px; margin-bottom:20px;}
+	
+	section#admin a {position:static; -webkit-transform:none; -moz-transform:none; -o-transform:none; filter:none; transform:none; z-index:auto;}
+	section#admin a#news_link {margin-left:-4px;}
+}
